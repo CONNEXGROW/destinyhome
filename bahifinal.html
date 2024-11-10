@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DestinyHome - The Next-Gen Student Living</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">DestinyHome</a>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                <nav>
+                    <a href="#gallery">Our Gallery</a>
+                    <a href="#facilities">Facilities</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero">
+        <h1>
+            Welcome to <span class="highlight">Destiny</span>Home<br>
+            The Next-Gen<br>
+            <span class="underline">The Future of Student Living</span>
+        </h1>
+        <div class="cta-buttons">
+            <button class="btn btn-primary" onclick="window.location.href='#gallery'">Explore All</button>
+        </div>
+        <div class="cityscape"></div>
+    </main>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/1234567890" class="float-btn whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+1234567890" class="float-btn phone" aria-label="Call us">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="gallery-title">Gallery</h2>
+            <button class="gallery-arrow left" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="gallery-arrow right" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="gallery-slider">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0007.jpg" alt="Double Occupancy Room - Modern Design">
+                        <div class="gallery-item-overlay">
+                            <h3>Double Occupancy Room</h3>
+                            <p>Modern design with comfortable beds and storage</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0035.jpg" alt="Single Occupancy Room">
+                        <div class="gallery-item-overlay">
+                            <h3>Single Occupancy Room</h3>
+                            <p>Private room with study area</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0039.jpg" alt="Common Area">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Spacious common room for socializing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0017.jpg" alt="Study Room">
+                        <div class="gallery-item-overlay">
+                            <h3>Study Room</h3>
+                            <p>Quiet space for focused learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="facilities" class="facilities-section">
+        <div class="facilities-title">Facilities</div>
+        <div class="icon-container">
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="icon-label">4-Time Food</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <div class="icon-label">WiFi</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <div class="icon-label">Laundry with Iron</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <div class="icon-label">Fully AC Rooms</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="icon-label">Hygienic Food (Pure Veg)</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-battery-full"></i>
+                </div>
+                <div class="icon-label">24x7 Power Backup</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="icon-label">CCTV Surveillance</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div class="icon-label">Doctor on Call</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-first-aid"></i>
+                </div>
+                <div class="icon-label">First Aid</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="icon-label">Security Guard 24x7</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <div class="icon-label">Cold Water on Each Floor</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-restroom"></i>
+                </div>
+                <div class="icon-label">Attached Washroom</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="icon-label">Balcony</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <div class="icon-label">24x7 Warden</div>
+            </div>
+            <div class="icon-box">
+                <div class="icon-circle">
+                    <i class="fas fa-toilet"></i>
+                </div>
+                <div class="icon-label">Attached Washroom in Each Room</div>
+            </div>
+        </div>
+    </div>
+
+    <section id="founder" class="founder">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-image">
+                    <img src="IMG_20241109_172126.jpg" alt="Founder Image">
+                </div>
+                <div class="founder-text">
+                    <h3>Founder &amp; CEO - Rajiv Kumar Tiwari</h3>
+                    <p>Rajiv Kumar Tiwari, the visionary behind DestinyHome, established the platform with a mission to revolutionize student housing in India. With a commitment to quality and affordability, DestinyHome ensures that students across the country can access safe, comfortable, and well-located accommodations, enabling them to focus on their studies and personal growth. Driven by a passion for empowering the next generation, Rajiv’s leadership continues to inspire the company’s relentless pursuit of excellence in student living.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="md" class="founder">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-image">
+                    <img src="IMG-20241109-WA0020.jpg" alt="MD Image">
+                </div>
+                <div class="founder-text">
+                    <h3>MD - Nishant Tiwari</h3>
+                    <p>Nishant Tiwari, the dynamic Managing Director of DestinyHome, plays a pivotal role in shaping the future of student housing in India. With a keen eye for innovation and a deep understanding of student needs, Nishant is dedicated to creating environments that support both academic excellence and personal development. His leadership fosters a culture of growth and well-being, ensuring that DestinyHome continues to set new standards in student living across the country.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <a href="#" id="address-link" target="_blank" rel="noopener noreferrer">CE/141 ANSHAL HOUSING, Ansal Golf Links 1, Greater Noida, Uttar Pradesh 201310</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+911234567890">+91 123 456 7890</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:destinyhome.in@gmail.com">destinyhome.in@gmail.com</a></p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7250166907784!2d77.50544087557707!3d28.458021777518945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1545f42d0d9%3A0x7d2d494d38f08343!2sDestinys%20Homes!5e0!3m2!1sen!2sin!4v1699644579744!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
