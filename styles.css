@@ -290,8 +290,8 @@ p {
 }
 
 .gallery-item img {
-    width: 100%;
-    height: 500px;
+    width: 200%;
+    height: 700px;
     object-fit: cover;
     display: block;
 }
