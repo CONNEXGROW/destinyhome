@@ -6,7 +6,7 @@
     <title>DestinyHome - The Next-Gen Student Living</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,9 +25,9 @@
 
     <main class="hero">
         <h1>
-            Step Into  <span class="highlight">DestinyHome</span><br>
+            Step Into <span class="highlight">DestinyHome</span><br>
             The Next-Gen<br>
-            <span class="underline"> Your Space, Your Journey, Your Future</span>
+            <span class="underline">Your Space, Your Journey, Your Future</span>
         </h1>
         <div class="cta-buttons">
             <button class="btn btn-primary" onclick="window.location.href='#gallery'">Explore All</button>
@@ -39,66 +39,91 @@
         <a href="https://wa.me/+919582233474" class="float-btn whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="tel:+919999614474 " class="float-btn phone" aria-label="Call us">
+        <a href="tel:+919999614474" class="float-btn phone" aria-label="Call us">
             <i class="fas fa-phone"></i>
         </a>
     </div>
 
- <section id="gallery" class="gallery">
-    <div class="container">
-        <h2 class="gallery-title">Gallery</h2>
-        <button class="gallery-arrow left" aria-label="Previous image">
-            <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="gallery-arrow right" aria-label="Next image">
-            <i class="fas fa-chevron-right"></i>
-        </button>
-        <div class="gallery-slider">
-            <div class="gallery-track">
-                <div class="gallery-item">
-                    <img src="IMG-20241109-WA0007.jpg" alt="Double Occupancy Room - Modern Design">
-                    <div class="gallery-item-overlay">
-                        <!-- Overlay content here if needed -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="gallery-title">Gallery</h2>
+            <button class="gallery-arrow left" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="gallery-arrow right" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="gallery-slider">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0007.jpg" alt="Double Occupancy Room - Modern Design" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Double Occupancy Room</h3>
+                            <p>Modern design for comfortable living</p>
+                        </div>
                     </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20240704-WA0035.jpg" alt="Single Occupancy Room">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20240704-WA0039.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20240704-WA0050.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20240704-WA0044.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20241109-WA0016.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20241109-WA0011.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20241109-WA0017.jpg" alt="Study Room">
-                    <div class="gallery-item-overlay"></div>
-                </div>
-                <div class="gallery-item">
-                    <img src="IMG-20241109-WA0015.jpg" alt="Common Area">
-                    <div class="gallery-item-overlay"></div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0035.jpg" alt="Single Occupancy Room" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Single Occupancy Room</h3>
+                            <p>Private space for focused study</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0039.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Spacious lounge for relaxation and socializing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0050.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Another view of our comfortable common spaces</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20240704-WA0044.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Modern furnishings for a cozy atmosphere</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0016.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Bright and airy space for group activities</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0011.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Stylish decor for a home-like feel</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0017.jpg" alt="Study Room" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Study Room</h3>
+                            <p>Quiet space for focused learning</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG-20241109-WA0015.jpg" alt="Common Area" class="zoomable">
+                        <div class="gallery-item-overlay">
+                            <h3>Common Area</h3>
+                            <p>Additional view of our welcoming common spaces</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-  <div id="facilities" class="facilities-section">
+    <div id="facilities" class="facilities-section">
         <div class="facilities-title">Facilities</div>
         <div class="icon-container">
             <div class="icon-box">
@@ -143,17 +168,9 @@
                 </div>
                 <div class="icon-label">First Aid</div>
             </div>
-            
-            <!-- Remaining facilities in default order -->
             <div class="icon-box">
                 <div class="icon-circle">
-                    <i class="fas fa-utensils"></i>
-                </div>
-                <!-- <div class="icon-label">4-Time Food</div>
-            </div>
-            <div class="icon-box">
-                <div class="icon-circle">
-                    <i class="fas fa-tshirt"></i> -->
+                    <i class="fas fa-tshirt"></i>
                 </div>
                 <div class="icon-label">Laundry with Iron</div>
             </div>
@@ -197,12 +214,13 @@
                     <img src="IMG_20241109_172126.jpg" alt="Founder Image">
                 </div>
                 <div class="founder-text">
-                    <h3>Founder &amp; CEO- Rajiv Tiwari </h3>
-                    <p>Rajiv Tiwari, the visionary behind DestinyHome, established the platform with a mission to revolutionize student housing in India. With a commitment to quality and affordability, DestinyHome ensures that students across the country can access safe, comfortable, and well-located accommodations, enabling them to focus on their studies and personal growth. Driven by a passion for empowering the next generation, Rajiv’s leadership continues to inspire the company’s relentless pursuit of excellence in student living.</p>
+                    <h3>Founder &amp; CEO- Rajiv Tiwari</h3>
+                    <p>Rajiv Tiwari, the visionary behind DestinyHome, established the platform with a mission to revolutionize student housing in India. With a commitment to quality and affordability, DestinyHome ensures that students across the country can access safe, comfortable, and well-located accommodations, enabling them to focus on their studies and personal growth. Driven by a passion for empowering the next generation, Rajiv's leadership continues to inspire the company's relentless pursuit of excellence in student living.</p>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="md" class="founder">
         <div class="container">
             <div class="founder-content">
@@ -224,8 +242,8 @@
                 <div class="contact-info">
                     <h3>Contact Information</h3>
                     <p><i class="fas fa-map-marker-alt"></i> <a href="#" id="address-link" target="_blank" rel="noopener noreferrer">CE/141 ANSHAL HOUSING, Ansal Golf Links 1, Greater Noida, Uttar Pradesh 201310</a></p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:+919999614474 ">+91 9999614474 </a></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+919582233474">+91 9582233474 </a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919999614474">+91 9999614474</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+919582233474">+91 9582233474</a></p>
                     <p><i class="fas fa-envelope"></i> <a href="mailto:destinyhome.in@gmail.com">destinyhome.in@gmail.com</a></p>
                     <div class="social-links">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -241,6 +259,79 @@
         </div>
     </section>
 
-    
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        // JavaScript for image zoom functionality
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const closeBtn = document.getElementsByClassName('close')[0];
+        const zoomableImages = document.querySelectorAll('.zoomable');
+
+        zoomableImages.forEach(img => {
+            img.onclick = function() {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        });
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <style>.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.zoomable {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.zoomable:hover {
+    opacity: 0.7;
+}</style>
 </body>
 </html>
