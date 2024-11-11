@@ -69,7 +69,7 @@ nav a {
 }
 
 .hero {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -537,7 +537,7 @@ p {
     }
 
     .gallery-item img {
-        height: 300px;
+        height: 100px;
     }
 
     .contact-content {
